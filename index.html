@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>HtmlOnlyAssignment</title>
 </head>
+
 <body>
-    <h1>Welcome to My Page</h1>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to my HTML Media Project</h1>
+        <p>This webpage demostrates various HTML Elements</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#links">Links</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <img src="https://plus.unsplash.com/premium_photo-1734640921345-6037f1c70e20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+            width="30%">
+        <img src="https://images.unsplash.com/photo-1739641375724-dfea74e0df69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8"
+            width="30%">
+        <img src="https://images.unsplash.com/photo-1739518805568-41e07e3318b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
+            width="30%">
+    </section>
+
+    <!-- Usefull Links -->
+    <section id="links">
+        <h2>Usefull Link</h2>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://github.com/">Github</a>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+    </section>
+
+    <!-- Videos&Audio -->
+    <section id="videos">
+        <h2>Videos</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NDsO1LT_0lw?si=1YzBTmJ_a4smZO0k"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h2>Audio</h2>
+        <div><audio controls src="media/audio.mp3"></audio></div>
+    </section>
+
+    <!-- Contact us -->
+    <section id="contact">
+        <h2>Find Us</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7078.003477572699!2d-114.07019244656038!3d51.04095920580821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371701d3d776ec1%3A0x3a44a63023be61f8!2sCentral%20Memorial%20Park!5e0!3m2!1sen!2sca!4v1739733433710!5m2!1sen!2sca"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div>
+        <iframe src="https://www.wikipedia.org" width="800" height="600"></iframe>
+    </div>
 </body>
+
 </html>
